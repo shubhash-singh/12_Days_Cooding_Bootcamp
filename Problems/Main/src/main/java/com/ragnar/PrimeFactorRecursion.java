@@ -19,4 +19,15 @@ public class PrimeFactorRecursion {
             }
         }
     }
+    public void primeFactor(int n, int a) {
+        if (n <= 1) {
+            return;
+        }
+        int i = 2;
+        while(n%i != 0){
+            i++;
+        }
+        System.out.print(i + " ");
+        primeFactor(n, a);
+    }
 }
