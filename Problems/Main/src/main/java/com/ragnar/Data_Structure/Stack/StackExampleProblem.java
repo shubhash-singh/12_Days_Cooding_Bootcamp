@@ -1,4 +1,4 @@
-package com.ragnar.Data_Structure;
+package com.ragnar.Data_Structure.Stack;
 
 import java.util.HashMap;
 import java.util.Stack;
