@@ -1,4 +1,4 @@
-package com.ragnar.problems;
+package com.ragnar;
 
 public class LCM_GCD {
     public static void main(String[] args) {

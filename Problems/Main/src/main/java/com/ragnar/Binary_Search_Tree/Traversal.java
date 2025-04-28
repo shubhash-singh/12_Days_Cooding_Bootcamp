@@ -1,4 +1,4 @@
-package com.ragnar.Binary_Tree;
+package com.ragnar.Binary_Search_Tree;
 
 
 
@@ -45,15 +45,17 @@ public class Traversal {
             inOrder(node.right);
         }
     }
-    // LMR Left->Right->Middle
+    // Middle->Left->Right
+
     public void preOrder(TreeNode node){
         if (node != null) {
             preOrder(node.left);
             preOrder(node.right);
             System.out.print(node.val+" ");
         }
-    }
-    // Middle->Left->Right
+    }  
+        // LMR Left->Right->Middle
+    
     public void postOrder(TreeNode node){
         if (node != null) {
             System.out.print(node.val+" ");
