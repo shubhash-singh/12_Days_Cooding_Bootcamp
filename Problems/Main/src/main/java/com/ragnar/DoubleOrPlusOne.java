@@ -1,4 +1,4 @@
-// package com.ragnar;
+package com.ragnar;
 
 public class DoubleOrPlusOne {
 
